@@ -1,6 +1,7 @@
 /*
 Resets Margin/Padding on all elements to 0 
 */
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -26,7 +27,7 @@ body {
 #header {
 }
 #header h1 a {
-    background-image: url(../img/assessment-1.webp);
+    background-image: url("../img/assessment-1.webp");
     display:block;
     height:140px;
     text-indent: 100%;
