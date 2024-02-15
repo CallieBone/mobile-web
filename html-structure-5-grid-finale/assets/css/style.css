@@ -1,0 +1,58 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+main{
+  /* width: 940px; */
+  /* margin: 20px auto; */
+  margin: 2vh auto;
+  border: 1px solid #ff0000;
+ /* background-image: url("../img/grid-2.png") */
+}
+
+header.primary, footer.primary{
+ /* width: 900px;*/
+  width: 95.7446%;
+  background: rgba(177, 96, 159, 0.4);
+  /* margin:20px; */
+  margin:2.1276%;
+  padding:2.127%px;
+  float:left;
+}
+
+#blog{
+  background: rgba(255, 0, 179, 0.6);
+ /* width: 580px; */
+  width: 61.702%;
+  /* margin-left:20px; */
+  margin:2.1276%;
+  /* padding:20px */
+  padding:2.127%;
+  float:left;
+}
+
+aside{
+  background: rgba(255, 127, 255, 0.3);
+ /* width: 280px; */
+  width: 29.7872%;
+  /* margin-left:20px; */
+  margin: 2.127%;
+  /* padding: 20px */
+  padding: 2.127%;
+  float:left;
+}

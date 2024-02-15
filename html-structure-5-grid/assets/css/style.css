@@ -22,14 +22,14 @@ html {
     /* margin: 20px auto; */
     margin: 2vh auto;
     border: 1px solid #ff0000;
-    /* background-image: url("../img/grid-2.png") */
+   /* background-image: url("../img/grid-2.png") */
   }
   
   header.primary, footer.primary{
    /* width: 900px;*/
-    width: 95.74468%;
+    width: 95.7446%;
     background: rgba(177, 96, 159, 0.4);
-    /*margin:20px; */
+    /* margin:20px; */
     margin:2.1276%;
     padding:2.127%px;
     float:left;
@@ -41,6 +41,7 @@ html {
     width: 74.4680%;
     /* margin-left:20px; */
     margin:2.1276%;
+    /* padding:20px */
     padding:2.127%;
     float:left;
   }
@@ -48,10 +49,10 @@ html {
   aside{
     background: rgba(255, 127, 255, 0.3);
    /* width: 260px; */
-    Width: 28.8888%;
+    width: 28.8888%;
     /* margin-left:20px; */
-    margin:2.127%;
+    margin: 2.127%;
     /* padding: 20px */
-    padding:2.127%;
+    padding: 2.127%;
     float:left;
   }
