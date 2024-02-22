@@ -24,9 +24,21 @@ body {
 	margin-top: 20px;
 	border: 1px solid #CCC;
 }
-#header {
 
+h2 {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: rgb(255, 196, 0);
+	font-style: oblique;
 }
+
+h3 {
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: rgb(255, 0, 119);
+	font-style:italic;
+}
+
 #header h1 a {
     background-image: url("../img/assessment-1.webp");
     display:block;
