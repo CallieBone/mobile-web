@@ -1,0 +1,36 @@
+img{ 
+    max-width: 100%;
+  }
+  
+body{
+    background-color: pink;
+}
+  
+  copyright {
+    background-color: red;
+  }
+  
+  
+  @media screen and (min-width:992px) {
+    
+  }
+  
+  
+  /*----------------------Edge Case Tweaks-----------------------*/
+  
+  
+  
+  @media only screen and (max-width: 460px) {
+    .related-links li a svg{display:none;}
+    
+  }
+  
+  @media only screen and (max-width: 395px) {
+  .related-links{
+  flex-direction:column;
+  
+  }
+  .related-links a{
+  display:block;
+    }  
+  }
