@@ -6,6 +6,10 @@ img{
 body{
     background-color: pink;
 }
+
+.height-el {
+  width: 50%;
+}
   
   copyright {
     background-color: red;
