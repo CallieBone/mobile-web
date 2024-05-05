@@ -1,9 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 img{ 
     max-width: 100%;
     height:auto;
   }
   
 body{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 50px;
+  display: flex;
+  
     background-color: pink;
 }
 
@@ -11,10 +26,13 @@ body{
   width: 50%;
 }
   
-  copyright {
-    background-color: red;
+  .copyright {
+    background-color: rgb(170, 69, 162);
   }
-  
+
+.footer {
+  background-color: rgb(84, 69, 170);
+}
   
   @media screen and (min-width:992px) {
     
@@ -24,6 +42,15 @@ body{
   /*----------------------Edge Case Tweaks-----------------------*/
   
   
+  @media screen and (max-width: 600px) {
+
+    header.primary nav ul {
+      flex-direction: column;
+      max-width: 250px;
+      margin: auto;
+      gap: 10px;
+    }
+  }
   
   @media only screen and (max-width: 460px) {
     .related-links li a svg{display:none;}
@@ -35,7 +62,10 @@ body{
   flex-direction:column;
   
   }
+
   .related-links a{
   display:block;
-    }  
+  }
+
+
   }
