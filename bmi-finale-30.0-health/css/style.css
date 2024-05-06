@@ -6,6 +6,15 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+  #colophon{
+    justify-content: space-around;
+     display: flex;
+     padding: 10px;
+     color: #ff006a;
+     text-align: center;
+     background-color: #ffb4f3;
+   }
   
   img{ 
       max-width: 100%;
