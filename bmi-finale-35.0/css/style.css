@@ -1,71 +1,64 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
   
   img{ 
       max-width: 100%;
       height:auto;
     }
     
-  body{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 50px;
-    display: flex;
-    
-      background-color: pink;
-  }
+    body{
+      color:rgb(97, 0, 40);
+      margin: 25px;
+      display: flex;
+      background-color: rgb(255, 103, 179);
   
-  .height-el {
-    width: 50%;
-  }
-    
-    .copyright {
-      background-color: rgb(170, 69, 162);
+    .height-el {
+      width: 50%;
     }
-  
-  .footer {
-    background-color: rgb(84, 69, 170);
-  }
     
-    @media screen and (min-width:992px) {
+    .figure-caption {
+      color: rgb(185, 0, 87);
+    }
+
+  @media screen and (min-width:992px) {
       
-    }
-    
-    
-    /*----------------------Edge Case Tweaks-----------------------*/
-    
-    
-    @media screen and (max-width: 600px) {
-  
-      header.primary nav ul {
-        flex-direction: column;
-        max-width: 250px;
-        margin: auto;
-        gap: 10px;
-      }
-    }
-    
-    @media only screen and (max-width: 460px) {
-      .related-links li a svg{display:none;}
-      
-    }
-    
-    @media only screen and (max-width: 395px) {
-    .related-links{
-    flex-direction:column;
-    
-    }
-  
-    .related-links a{
-    display:block;
-    }
+  }
   
   
+  /*----------------------Edge Case Tweaks-----------------------*/
+  
+  
+  @media screen and (max-width: 600px) {
+
+    header.primary nav ul {
+      flex-direction: column;
+      max-width: 250px;
+      margin: auto;
+      gap: 10px;
     }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .related-links li a svg{display:none;}
+    
+  }
+  
+  @media only screen and (max-width: 395px) {
+  .related-links{
+  flex-direction:column;
+  
+  }
+
+}
+
+  .related-links a{
+  display:block;
+  }
+}

@@ -27,6 +27,32 @@ html {
     width: 50%;
   }
   
+  table {
+    border: 1px solid #3f1626;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px, 0;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  tr:hover {
+    background-color: rgba(255, 0, 128, 0.2);
+  }
+  
+  th {
+    background-color: #b60e40;
+    padding: 10px;
+  }
+  
+  td {
+    border: 1px solid #66043d;
+    padding: 5px;
+  }
+
   .figure-caption {
     color: rgb(255, 0, 119);
   }

@@ -7,6 +7,12 @@ html {
   box-sizing: inherit;
 }
 
+.navbar-brand{
+ justify-content: space-around;
+  display: flex;
+}
+
+
 img{ 
     max-width: 100%;
     height:auto;
@@ -18,21 +24,49 @@ body{
   margin-left: 25px;
   margin-right: 50px;
   display: flex;
-  
-    background-color: pink;
+  background-color: rgb(255, 218, 230);
 }
 
 .height-el {
   width: 50%;
 }
+
+table {
+  border: 1px solid #3f1626;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px, 0;
+}
+
+caption {
+  font-weight: bold;
+  margin: 10px;
+}
+
+tr:hover {
+  background-color: rgba(255, 0, 128, 0.2);
+}
+
+th {
+  background-color: #b60e40;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #66043d;
+  padding: 5px;
+
+  
+
   
   .copyright {
     background-color: rgb(170, 69, 162);
   }
 
-.footer {
-  background-color: rgb(84, 69, 170);
-}
+  .footer {
+    background-color: rgb(84, 69, 170);
+  }
+  
   
   @media screen and (min-width:992px) {
     
@@ -63,9 +97,10 @@ body{
   
   }
 
-  .related-links a{
+}
+
+.related-links a{
   display:block;
   }
 
-
-  }
+}

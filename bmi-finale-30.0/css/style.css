@@ -13,27 +13,24 @@ html {
     }
     
   body{
+    color:rgb(97, 0, 40);
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 50px;
     display: flex;
     
-      background-color: pink;
+    background-color: rgb(255, 132, 179);
   }
   
   .height-el {
     width: 50%;
   }
     
-    .copyright {
-      background-color: rgb(170, 69, 162);
-    }
-  
-  .footer {
-    background-color: rgb(84, 69, 170);
+  .figure-caption {
+    color: rgb(219, 0, 102);
   }
-    
+
     @media screen and (min-width:992px) {
       
     }
