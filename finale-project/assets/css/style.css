@@ -7,11 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-.navbar-brand{
+#colophon{
  justify-content: space-around;
   display: flex;
+  padding: 10px;
+  color: #ff006a;
+  text-align: center;
+  background-color: #ffb4f3;
 }
 
+.navbar{
+color: aqua;
+
+}
 
 img{ 
     max-width: 100%;
