@@ -2,6 +2,8 @@
 Resets Margin/Padding on all elements to 0 
 */
 
+
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -100,6 +102,40 @@ a:hover{
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+
+table {
+	border: 1px solid #c0c0c0;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+  }
+  
+  caption {
+	font-weight: bold;
+	margin: 10px;
+  }
+  tr:nth-child(even) {
+	background-color: rgba(128, 14, 52, 0.1);
+  }
+  
+  td:nth-child(n + 2) {
+	text-align: right;
+  }
+  
+  tr:hover {
+	background-color: rgba(255, 0, 128, 0.2);
+  }
+  th {
+	background-color: #660a21;
+	color: #ff008c;
+	padding: 10px;
+  }
+  td {
+	border: 1px solid #ff0000;
+	padding: 5px;
+  }
+  
+
 #footer {
 	background-color: #000;
 	color: #FFF;
