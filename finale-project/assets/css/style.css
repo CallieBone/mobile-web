@@ -65,16 +65,6 @@ td {
   padding: 5px;
 
 }
-
-  
-  .copyright {
-    background-color: rgb(170, 69, 162);
-  }
-
-  .footer {
-    background-color: rgb(84, 69, 170);
-  }
-  
   
   @media screen and (min-width:992px) {
     
@@ -105,6 +95,39 @@ td {
   
   }
 
+}
+
+.related-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.related-links a {
+  font-size: 2.0 rem;
+  margin: 20px 0 0;
+}
+
+.related-links a {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.related-links a {
+  color: #ffb5da;
+  text-decoration: none;
+  background-color: #ff0000;
+  background-color: rgba(110, 0, 52, 0.6);
+  padding: 5px 3px;
+  border: 2px solid #6d1d4c;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.related-links a:hover {
+  background: rgba(80, 11, 40, 0.95);
 }
 
 .related-links a{
